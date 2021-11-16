@@ -10,10 +10,10 @@ Landing Page Figma template:
 - https://www.figma.com/file/gkmhv6BtsqOgCZx6Egryp4/gpt3-(Copy)?node-id=0%3A1
 
 ## BEM Guide 
-- BEM: popular naming convention for CSS
+- BEM: popular naming convention for CSS = Block Element Modifier
 - https://sparkbox.com/foundry/bem_by_example
 
-## Web Tools
+## Web Tools being used during coding
 - generate CSS gradient: https://angrytools.com/ > https://angrytools.com/gradient/
   using 2 colors declared in index.css > :root
   generate gradient and paste code in app.css
@@ -43,3 +43,7 @@ You might be wondering, what are the prerequisites for building such an amazing 
 - From soft and pleasant animations to complex gradients
 - Perfectly placed media queries for satisfactory responsiveness covering almost devices
 - And at the end you'll learn how to deploy your websites to extremely fast servers and give them a custom domain name.
+
+## Dependencies
+
+create-react-app and react-icons are used
