@@ -14,8 +14,23 @@ Landing Page Figma template:
 - https://sparkbox.com/foundry/bem_by_example
 
 ## Web Tools
-- generate css gradient: https://angrytools.com/ > https://angrytools.com/gradient/
-- CSs animation: https://animista.net/
+- generate CSS gradient: https://angrytools.com/ > https://angrytools.com/gradient/
+  using 2 colors declared in index.css > :root
+  generate gradient and paste code in app.css
+  .gradient__b
+
+- generate CSS animation: https://animista.net/
+  we use "scale up conter" animation
+  paste code in app.css
+  .scale-up-center {
+	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    }
+ @keyframes scale-up-center...
+
+- open design template in Figma
+  select elements and paste inside all jsx components code related to font and decoration of text, paragraph, headlines, buttons, etc..
+
 ## Introduction
 This is a code repository for the corresponding video tutorial. 
 
